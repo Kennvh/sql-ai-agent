@@ -323,14 +323,7 @@ python sql_agent.py
 ```env
 OPENAI_API_KEY=sk-...
 DATABASE_URL=postgresql://...
-HOST=0.0.0.0
-PORT=8000
 ```
 
-## 📊 Performance
 
-- **Response Time**: ~2-5 seconds (depends on OpenAI API)
-- **Concurrent Requests**: Handles multiple users simultaneously
-- **Database Connections**: Async connections for better performance
-- **Caching**: Consider adding Redis for query result caching
 
